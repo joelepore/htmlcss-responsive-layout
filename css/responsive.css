@@ -1,1 +1,86 @@
 /* Soluzione qui */
+@media screen and (min-width:768px) {
+  #topbar {
+    justify-content: flex-start;
+  }
+
+  main {
+    padding: 3rem;
+  }
+
+  .recipe-origin {
+    display: inline;
+  }
+
+  .recipe-title h2 {
+    font-size: 2em;
+  }
+
+  .recipe-rating {
+    font-size: 1.2em;
+  }
+
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes ul li {
+    width: calc(100%/3);
+  }
+
+  .btn {
+    flex-grow: 1;
+  }
+
+  .ads {
+    display: block;
+  }
+
+  .presentation img {
+    float: left;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .recipe-title h2 {
+    font-size: 2.5em;
+  }
+
+  .quick-notes ul {
+    display: block;
+  }
+
+  .quick-notes ul li {
+    width: 100%;
+  }
+
+  .recipe-card {
+    display: flex;
+  }
+
+  .recipe-video {
+    height: auto;
+    width: 70%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .recipe-info {
+    width: 30%;
+  }
+
+  .social-networks .label {
+    display: inline;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer address {
+    text-align: left;
+  }
+}
